@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage{enumitem}
+\begin{document}
+\title{Drone Security Breach Investigation Report}
+\author{ Security Investigator}
+\date{\today}
+\maketitle
+
+\section{Executive Summary}
+
+
+\section{Case Overview}
+\begin{itemize}
+    \item Identification of vulnerabilities in the system.
+    \item Assessment of potential impact on the company.
+\end{itemize}
+
+\section{Investigation Methodology}
+\begin{itemize}
+    \item Data Exploration and Preparation: Collecting relevant data  then cleaned, processed, and explored to identify patterns and insights. This step involves tasks like handling missing values, encoding categorical variables, and visualizing data distributions.\\
+    \item Model Training and Evaluation: After data preparation, machine learning models are trained using the prepared data. Different algorithms are tested and evaluated based on performance metrics such as accuracy, precision, recall, and F1 score. The best-performing model is selected, and its results are interpreted to draw conclusions and make decisions.\\
+\end{itemize}
+
+\section{Evidence Collection}
+\begin{itemize}
+    \item Digital evidence consists of log files and GPS data.
+\end{itemize}
+
+\section{Data Analysis}
+\begin{itemize}
+    \item Data analysis revealed anomalies in GPS coordinates, indicating spoofing activity.
+    \item Machine learning algorithms were employed to identify patterns in the network traffic.
+\end{itemize}
+
+\section{Attack Scenario Reconstruction}
+\begin{itemize}
+    \item Attack methods included jamming GPS signals and intercepting communication between the drone and its controller.
+\end{itemize}
+
+\section{Forensic Artefacts}
+\begin{itemize}
+    \item Digital artefacts include altered GPS logs and traces of malicious code in the drone's firmware.
+\end{itemize}
+
+\section{Impact Description}
+{impact_description}
+\section{Conclusion}
+
+{Conclusion}
+
+\section{Recommendations}
+{Recommendations}
+
+\section{Appendices}
+%\begin{itemize}
+%    \item Technical details of forensic analyses, including scripts and command outputs.
+%    \item Diagrams illustrating the attack scenario and forensic findings.
+%\end{itemize}
+
+\end{document}
